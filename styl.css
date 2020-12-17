@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(0,0,0);
+    padding: 20px; /* margines */
+}
+
+div.tresc {
+width: 750;
+text-align: left;
+}
+
+div.banner {
+    padding: 10px 0px;
+}
+
+h1 {
+  color: rgb(244,244,251);
+}
+
+/* nieodwiedzony link */
+a:link {
+  font-weight: bold;
+  text-decoration: none;
+  color: navy;
+}
+
+/* odwiedzony link */
+a:visited {
+  color: white;
+}
+
+/* mysz nad linkiem */
+a:hover {
+ color: yellow;
+}
+
+/* selected link */
+a:active {
+  color: red;
+}
